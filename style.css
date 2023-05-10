@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'ps4';
+    src: url(fontes/ps4.otf);
+}
+@font-face {
+    font-family: 'tobey';
+    src: url(fontes/tobey.ttf);
+}
+@font-face {
+    font-family: 'andrew';
+    src: url(fontes/andrew.ttf);
+}
+@font-face {
+    font-family: 'tom';
+    src: url(fontes/tom.ttf);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(247, 0, 0, 0.801);
+    display: flex;
+    justify-content: center; 
+    padding: 1vh;
+}
+
+header > h1 {
+    font-family: 'ps4';
+    font-size: 5em;
+    padding-top: 3vh;
+}
+
+.h1left {
+    padding-right: 10vw;
+}
+
+.h1right {
+    padding-left: 10vw;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+#tobey {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #000000f1;
+}
+
+#tobey > h1 {
+    font-family: 'tobey';
+    font-size: 3em;
+    text-align: start;
+    padding-left: 4vw;
+    margin-top: 0vh;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+#imgeptobey {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+#imgeptobey p {
+    padding: 20px;
+    text-align: justify;
+    margin-top: 3vh;
+    font-size: 1.1em;
+}
+
+#tobeyfoto > img {
+    margin-top: 5vh;
+    transform: scaleX(-1);
+    width: 350px;
+    opacity: 70%;
+    border: 2px dashed rgba(255, 0, 0, 0.836);
+}
+
+#aranhadescendo {
+    display: flex;
+    justify-content: end;
+}
+
+#aranhadescendo img {
+    width: 400px;
+    opacity: 95%;
+}
+
+
