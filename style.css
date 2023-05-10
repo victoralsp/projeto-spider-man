@@ -21,29 +21,30 @@
     margin: 0;
 }
 
-p {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 240, 240, 0.945);
 }
 
 header {
-    background-color: rgba(247, 0, 0, 0.801);
+    background-color: #902724;
     display: flex;
     justify-content: center; 
-    padding: 1vh;
 }
 
 header > h1 {
+    color: lightgrey;
     font-family: 'ps4';
-    font-size: 5em;
+    font-size: 5.5em;
     padding-top: 3vh;
 }
 
 .h1left {
-    padding-right: 10vw;
+    padding-right: 5vw;
 }
 
 .h1right {
-    padding-left: 10vw;
+    padding-left: 5vw;
 }
 
 main {
@@ -51,7 +52,6 @@ main {
     max-width: 1100px;
     margin: auto;
 }
-
 
 #tobey {
     padding-top: 10vh;
@@ -65,8 +65,8 @@ main {
     font-family: 'tobey';
     font-size: 3em;
     text-align: start;
-    padding-left: 4vw;
-    margin-top: 0vh;
+    padding-left: 2vw;
+    margin-top: 3vh;
     color: rgba(255, 255, 255, 0.842);
 }
 
@@ -93,6 +93,7 @@ main {
 }
 
 #aranhadescendo {
+    margin-bottom: 5vh;
     display: flex;
     justify-content: end;
 }
@@ -102,4 +103,109 @@ main {
     opacity: 95%;
 }
 
+#andrew {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #000000f1;
+}
 
+#andrew > h1 {
+    font-family: 'andrew';
+    font-size: 4em;
+    text-align: end;
+    padding-right: 5vw;
+    margin-top: 3vh;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+#imgepandrew {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+#imgepandrew p {
+    padding: 20px;
+    text-align: justify;
+    margin-top: 3vh;
+    font-size: 1.1em;
+}
+
+#andrewfoto > img {
+    margin-top: 5vh;
+    width: 300px;
+    opacity: 70%;
+    border: 2px dashed rgba(116, 0, 0, 0.836);
+}
+
+#tomnateia {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.6vh;
+}
+
+#tomnateia img {
+    width: 400px;
+    opacity: 95%;
+}
+
+#tom {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #000000f1;
+}
+
+#tom > h1 {
+    font-family: 'tom';
+    font-size: 5em;
+    text-align: center;
+    padding-right: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    color: rgba(214, 214, 214, 0.836);
+    border: 1px solid rgba(255, 255, 255, 0.010);
+}
+
+#imgeptom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+#imgeptom p {
+    padding: 20px;
+    text-align: justify;
+    margin-top: 3vh;
+    font-size: 1em;
+}
+
+#tomfoto > img {
+    margin-top: 5vh;
+    transform: scaleX(-1);
+    width: 420px;
+    opacity: 80%;
+    border: 2px dashed rgb(116, 0, 0);
+}
+
+footer {
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+    color: lightgrey;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(133, 1, 1);;
+}
