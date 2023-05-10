@@ -6,15 +6,15 @@
 }
 @font-face {
     font-family: 'tobey';
-    src: url(fontes/tobey.ttf);
+    src: url(./fontes/tobey.ttf);
 }
 @font-face {
     font-family: 'andrew';
-    src: url(fontes/andrew.ttf);
+    src: url(./fontes/andrew.ttf);
 }
 @font-face {
     font-family: 'tom';
-    src: url(fontes/tom.ttf);
+    src: url(./fontes/tom.ttf);
 }
 * {
     padding: 0;
@@ -23,13 +23,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(240, 240, 240, 0.945);
+    background-color: rgb(243, 243, 243);
 }
+
 
 header {
     background-color: #902724;
     display: flex;
     justify-content: center; 
+    padding: 10px;
 }
 
 header > h1 {
@@ -47,18 +49,20 @@ header > h1 {
     padding-left: 5vw;
 }
 
-main {
+#tobey {
+    height: 50vh;
     min-width: 300px;
     max-width: 1100px;
     margin: auto;
-}
-
-#tobey {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
     padding-left: 2vw;
     padding-right: 2vw;
-    background-color: #000000f1;
+    background-color: #0f0f0f;
+}
+
+#backgroundtobey {
+    background-color: #0f0f0f;
 }
 
 #tobey > h1 {
@@ -93,7 +97,7 @@ main {
 }
 
 #aranhadescendo {
-    margin-bottom: 5vh;
+    margin-bottom: 18vh;
     display: flex;
     justify-content: end;
 }
@@ -104,11 +108,19 @@ main {
 }
 
 #andrew {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    height: 70vh;
+    min-width: 300px;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
     padding-left: 2vw;
     padding-right: 2vw;
-    background-color: #000000f1;
+    background-color: #0f0f0f;
+}
+
+#backgroundandrew {
+    background-color: #0f0f0f;
 }
 
 #andrew > h1 {
@@ -131,7 +143,7 @@ main {
     padding: 20px;
     text-align: justify;
     margin-top: 3vh;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 #andrewfoto > img {
@@ -145,6 +157,7 @@ main {
     display: flex;
     justify-content: center;
     margin-top: -1.6vh;
+    padding-bottom: 100px;
 }
 
 #tomnateia img {
@@ -153,11 +166,20 @@ main {
 }
 
 #tom {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    height: 81vh;
+    min-width: 300px;
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 15vh;
     padding-left: 2vw;
     padding-right: 2vw;
-    background-color: #000000f1;
+    background-color: #0f0f0f;
+
+}
+
+#backgroundtom {
+    background-color: #0f0f0f;
+
 }
 
 #tom > h1 {
@@ -167,7 +189,7 @@ main {
     padding-right: 5vh;
     margin-top: 2vh;
     margin-bottom: 3vh;
-    color: rgba(214, 214, 214, 0.836);
+    color: rgba(231, 230, 230, 0.897);
     border: 1px solid rgba(255, 255, 255, 0.010);
 }
 
@@ -196,16 +218,16 @@ main {
 footer {
     font-size: 1em;
     text-align: center;
-    background-color: rgb(22, 22, 22);
-    color: lightgrey;
+    background-color: rgba(24, 24, 24, 0.89);
+    color: rgb(182, 182, 182);
     padding: 10px;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a:hover {
-    color: rgb(133, 1, 1);;
+    color: rgb(133, 1, 1);
 }
