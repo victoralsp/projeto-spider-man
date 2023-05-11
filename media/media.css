@@ -1,5 +1,5 @@
     /* Monitor pequeno */
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
     #tobey {
         max-width: 800px;
         height: 80vh;
@@ -65,7 +65,7 @@
 
 /* Tablet */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     #tobey {
         padding-top: 10vh;
         padding-bottom: 28vh;
@@ -123,3 +123,115 @@
         width: 350px;
     }
 }
+
+/* Celular */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    header {
+        margin: 0;
+        padding: 1vh;
+    }
+
+    header h1 {
+        font-size: 15vw;
+    }
+
+    header img {
+        width: 15vh;
+    }
+
+    #tobey {
+        padding-top: 10vh;
+        padding-bottom: 75vh;
+
+    }
+
+    #tobey h1 {
+        font-size: 2.5em;
+        text-align: center;
+        padding-right: 6vw;
+    }
+
+    #imgeptobey {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tobey p {
+        font-size: 0.8em;
+    }
+
+    #tobey img {
+        width: 250px;
+        margin-left: 12vw;
+        margin-top: 2vh;
+    }
+
+    #aranhadescendo img {
+        width: 25vh;
+        padding-bottom: 25vh;
+    }
+
+    #andrew {
+        padding-bottom: 68vh;
+    }
+
+    #imgepandrew {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #andrew h1 {
+        font-size: 2.5em;
+        text-align: center;
+        padding-left: 6vw;
+    }
+
+    #andrew p {
+        font-size: 0.8em;
+    }
+
+    #andrew img {
+        width: 200px;
+        margin-left: 20vw;
+        margin-top: 2vh;
+
+    }
+
+    #tomnateia {
+        margin-top: -2vh;
+        padding-bottom: 25vh;
+        
+    }
+    
+    #tomnateia img {
+        width: 200px;
+    }
+
+    #tom {
+        padding-bottom: 90vh;
+        padding-top: 10vh;
+    }
+
+    #imgeptom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tom h1 {
+        font-size: 3.3em;
+        text-align: center;
+        padding-left: 10%;
+    }
+    #tom p {
+        font-size: 0.8em;
+    }
+
+    #tom img {
+        width: 300px;
+        margin-left: 6%;
+    }
+
+
+  }
