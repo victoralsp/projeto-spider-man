@@ -1,4 +1,4 @@
-    /* Tablet */
+    /* Monitor pequeno */
 @media screen and (min-width: 1360px) {
     #tobey {
         max-width: 800px;
@@ -60,5 +60,66 @@
     #tomfoto img {
         margin-top: 8vh;
         padding-top: 20px;
+    }
+}
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+    #tobey {
+        padding-top: 10vh;
+        padding-bottom: 28vh;
+    }
+
+    #tobey h1 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 5em;
+}
+
+    #tobey P {
+        font-size: 0.9em;
+    }
+
+    #tobey img {
+        width: 350px;
+        padding: 5vh 0vh 0vh;
+    
+    }
+
+    #andrew h1 {
+        padding-left: 5vw;
+        text-align: center;
+        font-size: 5em;
+    }
+    #andrew p {
+        font-size: 0.95em;
+    }
+
+    #andrew img {
+        width: 330px;
+    }
+
+    #tomnateia img {
+        width: 300px;
+        padding-bottom: 15vh;
+    }
+
+    #tom {
+        padding-top: 10vh;
+    }
+
+    #tom h1 {
+        padding-left: 6vw;
+        text-align: center;
+        font-size: 5em;
+    }
+
+    #tom p {
+        font-size: 0.9em;
+    }
+
+    #tom img {
+        width: 350px;
     }
 }
