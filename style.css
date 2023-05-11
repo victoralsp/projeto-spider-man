@@ -16,6 +16,7 @@
     font-family: 'tom';
     src: url(./fontes/tom.ttf);
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -96,16 +97,17 @@ header > h1 {
     border: 2px dashed rgba(255, 0, 0, 0.836);
 }
 
-#aranhadescendo {
+ #aranhadescendo {
     margin-bottom: 18vh;
     display: flex;
     justify-content: end;
 }
 
 #aranhadescendo img {
-    width: 400px;
+    width: 500px;
     opacity: 95%;
-}
+
+} 
 
 #andrew {
     height: 70vh;

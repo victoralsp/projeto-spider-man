@@ -1,0 +1,64 @@
+    /* Tablet */
+@media screen and (min-width: 1360px) {
+    #tobey {
+        max-width: 800px;
+        height: 80vh;
+        padding-top: 25vh;
+        padding-bottom: 5vh;
+    }
+
+    #tobey > h1 {
+        font-size: 2.5em;
+        
+    }
+
+    #imgeptobey p {
+        font-size: 0.9em;
+    }
+
+    #tobeyfoto > img {
+        width: 300px;
+        margin-top: 6vh;
+    }
+
+    #andrew {
+        max-width: 800px;
+        height: 90vh;
+    }
+
+    #andrew > h1 {
+        font-size: 3em;
+    }
+
+    #andrew p {
+        font-size: 1em;
+    }
+
+    #andrewfoto img {
+        margin-top: 7vh;
+        width: 265px;
+    }
+
+    #tomnateia img {
+        width: 300px;
+    }
+
+    #tom {
+        max-width: 800px;
+        height: 100vh;
+        padding-top: 10vh;
+    }
+
+    #tom h1 {
+        font-size: 4em;
+    }
+
+    #tom p {
+        font-size: 0.8em;
+    }
+
+    #tomfoto img {
+        margin-top: 8vh;
+        padding-top: 20px;
+    }
+}
