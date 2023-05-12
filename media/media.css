@@ -1,15 +1,28 @@
     /* Monitor pequeno */
-@media screen and (min-width: 1366px) and (max-width: 1920px) {
+@media screen and (min-width: 1360px) and (max-width: 1919px) {
+
+    header {
+        padding: 0px;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    header img {
+        width: 110px;
+    }
+    
+
     #tobey {
         max-width: 800px;
         height: 80vh;
-        padding-top: 25vh;
-        padding-bottom: 5vh;
+        padding-top: 15vh;
+        padding-bottom: 3vh;
     }
 
     #tobey > h1 {
         font-size: 2.5em;
-        
     }
 
     #imgeptobey p {
@@ -21,9 +34,15 @@
         margin-top: 6vh;
     }
 
+    #aranhadescendo img {
+        width: 300px;
+        padding-bottom: 20vh;
+    }
+
     #andrew {
         max-width: 800px;
         height: 90vh;
+        padding-bottom: 8vh;
     }
 
     #andrew > h1 {
@@ -40,17 +59,18 @@
     }
 
     #tomnateia img {
-        width: 300px;
+        width: 220px;
+        padding-bottom: 10vh;
     }
 
     #tom {
         max-width: 800px;
-        height: 100vh;
-        padding-top: 10vh;
+        height: 90vh;
+        padding-top: 5vh;
     }
 
     #tom h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     #tom p {
@@ -58,8 +78,14 @@
     }
 
     #tomfoto img {
+        width: 330px;
         margin-top: 8vh;
         padding-top: 20px;
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 0.9em;
     }
 }
 
