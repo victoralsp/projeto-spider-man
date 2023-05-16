@@ -335,6 +335,70 @@ Grandes telas: acima de 1200px
 
     #tom {
         max-width: 400px;
+        height: 1040px;
+    }
+
+    #tom h1 {
+        font-size: 3.1em;
+        text-align: center;
+    }
+
+    #imgeptom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tom p {
+        font-size: 0.9em;
+    }
+
+    #tomfoto img {
+        width: 300px;
+        padding: 0px 25px;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    header {
+        height: 80px;
+    }
+    
+    header h1 {
+        font-size: 3em;
+    }
+
+    header img {
+        padding-top: 3%;
+        width: 80px;
+        height: 70px;
+    }
+
+    #tobey {
+        max-width: 90%;
+        height: 760px;
+        padding-top: 50px;
+    }
+
+    #imgeptobey {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tobey h1 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    #tobey p {
+        font-size: 0.8em;
+        padding-bottom: 0px;
+    }
+
+    #tobeyfoto img {
+        width: 280px;
+        margin-left: 6%;
     }
 
 }
