@@ -360,7 +360,7 @@ Grandes telas: acima de 1200px
 }
 
 @media screen and (max-width: 600px) {
-    
+
     header {
         height: 80px;
     }
@@ -389,6 +389,7 @@ Grandes telas: acima de 1200px
     #tobey h1 {
         font-size: 2.5em;
         text-align: center;
+        margin-right: 6%;
     }
 
     #tobey p {
@@ -398,7 +399,76 @@ Grandes telas: acima de 1200px
 
     #tobeyfoto img {
         width: 280px;
-        margin-left: 6%;
+        margin-left: 7%;
     }
+
+    #aranhadescendo img {
+        width: 180px;
+        padding-bottom: 120px;
+    }
+
+    #andrew {
+        max-width: 90%;
+        height: 905px;
+    }
+
+    #andrew h1 {
+        font-size: 3.1em;
+        text-align: center;
+    }
+
+    #imgepandrew {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #andrew p {
+        font-size: 0.83em;
+        padding-bottom: 0px;
+    }
+
+    #andrewfoto img {
+        width: 180px;
+        padding: 0px 50px;
+        margin-left: 7%;
+    }
+
+    #tomnateia img {
+        width: 165px;
+        padding-bottom: 40px;
+    }
+    
+    #tom {
+        max-width: 90%;
+        height: 1080px;
+        padding-top: 70px;
+    }
+
+    #tom h1 {
+        font-size: 3.5em;
+        margin-left: 9%;
+    }
+
+    #imgeptom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tom p {
+        font-size: 0.83em;
+        padding-bottom: 0px;
+    }
+
+    #tomfoto img {
+        width: 250px;
+        padding: 0px 10px;
+        margin-left: 9%;
+    }
+
+    footer {
+        font-size: 0.9em;
+        padding: 11px;
+    }
+
 
 }
