@@ -1,182 +1,286 @@
-    /* Monitor pequeno */
-@media screen and (min-width: 1360px) and (max-width: 1919px) {
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
 
+@media screen and (min-width: 1200px) {
+    header {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 5em;
+    }
+
+    header img {
+        width: 10vw;
+    }
+
+    #tobey {
+        height: 450px;
+        max-width: 800px;
+    }
+
+    #tobey h1 {
+        margin-top: 25px;
+        font-size: 2.1em;
+    }
+
+    #tobey p {
+        font-size: 0.9em;
+    }
+
+    #tobeyfoto img {
+        margin-top: 40px;
+        width: 320px;
+    }
+
+
+    #aranhadescendo {
+        padding-bottom: 110px;
+    }
+
+    #aranhadescendo img {
+        width: 250px;
+    }
+
+    #andrew {
+        height: 550px;
+        max-width: 800px;
+    }
+
+    #andrew h1 {
+        padding-top: 50px;
+        font-size: 2.5em;
+    }
+
+    #andrew p {
+        font-size: 0.9em;
+    }
+
+    #andrewfoto img {
+        width: 230px;
+    }
+
+    #tomnateia img {
+        width: 200px;
+        padding-bottom: 50px;
+    }
+
+    #tom {
+        padding-top: 30px;
+        height: 480px;
+        max-width: 800px;
+    }
+
+    #tom h1 {
+        font-size: 2.6em;
+    }
+
+    #tom p {
+        font-size: 0.75em;
+    }
+
+    #tomfoto img {
+        width: 320px;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    header {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }    
+    header h1 {
+        padding: 15px;
+        font-size: 4em;
+    }
+    header img {
+        width: 100px;
+    }
+
+    #tobey {
+        height: 430px;
+        max-width: 700px;
+        padding: 80px;
+    }
+
+    #tobey h1 {
+        padding-top: 20px;
+        font-size: 2.4em;
+    }
+
+    #tobey p {
+        font-size: 0.75em;
+    }
+
+    #tobeyfoto img {
+        width: 300px;
+    }
+
+    #aranhadescendo img {
+        width: 200px;
+        padding-bottom: 100px;
+    }
+
+    #andrew {
+        max-width: 700px;
+    }
+
+    #andrew h1 {
+        font-size: 3em;
+    }
+
+    #andrew p {
+        font-size: 0.8em;
+    }
+
+    #andrewfoto img {
+        width: 220px;
+    }
+
+    #tomnateia img {
+        width: 170px;
+        padding-bottom: 80px;
+    }
+
+    #tom {
+        max-width: 700px;
+        height: 600px;
+    }
+
+    #tom h1 {
+        font-size: 3em;
+    }
+
+    #tom p {
+        font-size: 0.75em;
+    }
+
+    #tomfoto img {
+        margin-top: 55px;
+        padding-top: 50px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
     header {
         padding: 0px;
     }
 
     header h1 {
-        font-size: 4em;
-    }
-
-    header img {
-        width: 110px;
-    }
-    
-
-    #tobey {
-        max-width: 800px;
-        height: 80vh;
-        padding-top: 15vh;
-        padding-bottom: 3vh;
-    }
-
-    #tobey > h1 {
-        font-size: 2.5em;
-    }
-
-    #imgeptobey p {
-        font-size: 0.9em;
-    }
-
-    #tobeyfoto > img {
-        width: 300px;
-        margin-top: 6vh;
-    }
-
-    #aranhadescendo img {
-        width: 300px;
-        padding-bottom: 20vh;
-    }
-
-    #andrew {
-        max-width: 800px;
-        height: 90vh;
-        padding-bottom: 8vh;
-    }
-
-    #andrew > h1 {
-        font-size: 3em;
-    }
-
-    #andrew p {
-        font-size: 1em;
-    }
-
-    #andrewfoto img {
-        margin-top: 7vh;
-        width: 265px;
-    }
-
-    #tomnateia img {
-        width: 220px;
-        padding-bottom: 10vh;
-    }
-
-    #tom {
-        max-width: 800px;
-        height: 90vh;
-        padding-top: 5vh;
-    }
-
-    #tom h1 {
         font-size: 3.5em;
     }
 
-    #tom p {
-        font-size: 0.8em;
+    header img {
+        width: 100px;
     }
 
-    #tomfoto img {
-        width: 330px;
-        margin-top: 8vh;
-        padding-top: 20px;
-    }
-
-    footer {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-}
-
-/* Tablet */
-
-@media screen and (min-width: 768px) and (max-width: 1280px) {
     #tobey {
-        padding-top: 10vh;
-        padding-bottom: 28vh;
+        padding-top: 90px;
+        max-width: 500px;
+        height: 430px;
     }
 
     #tobey h1 {
-        padding-left: 0;
         text-align: center;
-        font-size: 5em;
-}
-
-    #tobey P {
-        font-size: 0.9em;
+        font-size: 2.2em;
     }
 
-    #tobey img {
-        width: 350px;
-        padding: 5vh 0vh 0vh;
-    
+    #tobey p {
+        font-size: 0.6em;
+    }
+
+    #tobeyfoto img {
+        padding-top: 50px;
+        margin-top: 45px;
+        width: 250px;
+    }
+
+    #aranhadescendo img {
+        width: 220px;
+        padding-bottom: 90px;
+    }
+
+    #andrew {
+        max-width: 500px;
     }
 
     #andrew h1 {
-        padding-left: 5vw;
-        text-align: center;
-        font-size: 5em;
-    }
-    #andrew p {
-        font-size: 0.95em;
+        font-size: 2.8em;
     }
 
-    #andrew img {
-        width: 330px;
+    #andrew p {
+        font-size: 0.65em;
+    }
+
+    #andrewfoto img {
+        padding-top: 22px;
+        margin-top: 43px;
+        width: 220px;
     }
 
     #tomnateia img {
-        width: 300px;
-        padding-bottom: 15vh;
+        width: 170px;
+        padding-bottom: 50px;
     }
 
     #tom {
-        padding-top: 10vh;
+        height: 600px;
+        padding-top: 70px;
+        max-width: 500px;
     }
 
     #tom h1 {
-        padding-left: 6vw;
-        text-align: center;
-        font-size: 5em;
+        font-size: 3em;
     }
 
     #tom p {
-        font-size: 0.9em;
+        font-size: 0.58em;
     }
 
-    #tom img {
-        width: 350px;
+    #tomfoto img {
+        margin-top: 40px;
+        width: 250px;
+        padding-top: 120px;
     }
 }
 
-/* Celular */
+@media screen and (min-width: 600px) and (max-width: 768px ) {
 
-@media (min-width: 320px) and (max-width: 480px) {
-  
     header {
-        margin: 0;
-        padding: 1vh;
+        height: 85px;
     }
 
     header h1 {
-        font-size: 15vw;
+        font-size: 3.5em;
+        padding-top: 12px;
     }
 
     header img {
-        width: 15vh;
+        width: 100px;
+        height: 90px;
     }
 
     #tobey {
-        padding-top: 10vh;
-        padding-bottom: 75vh;
-
+        max-width: 450px;
+        height: 750px;
+        padding-top: 90px;
     }
 
     #tobey h1 {
-        font-size: 2.5em;
         text-align: center;
-        padding-right: 6vw;
+        font-size: 2.3em;
     }
 
     #imgeptobey {
@@ -185,22 +289,28 @@
     }
 
     #tobey p {
-        font-size: 0.8em;
+        font-size: 0.9em;
+        padding-bottom: 0px;
     }
 
-    #tobey img {
-        width: 250px;
-        margin-left: 12vw;
-        margin-top: 2vh;
+    #tobeyfoto img {
+        width: 380px;
+        margin-left: 7%;
     }
 
     #aranhadescendo img {
-        width: 25vh;
-        padding-bottom: 25vh;
+        width: 200px;
+        padding-bottom: 100px;
     }
 
     #andrew {
-        padding-bottom: 68vh;
+        max-width: 450px;
+        height: 880px;
+    }
+
+    #andrew h1 {
+        text-align: center;
+        font-size: 3em;
     }
 
     #imgepandrew {
@@ -208,54 +318,23 @@
         flex-direction: column;
     }
 
-    #andrew h1 {
-        font-size: 2.5em;
-        text-align: center;
-        padding-left: 6vw;
-    }
-
     #andrew p {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
-    #andrew img {
-        width: 200px;
-        margin-left: 20vw;
-        margin-top: 2vh;
-
+    #andrewfoto img {
+        width: 220px;
+        padding: 0px 80px;
+        margin-left: 7%;
     }
 
-    #tomnateia {
-        margin-top: -2vh;
-        padding-bottom: 25vh;
-        
-    }
-    
     #tomnateia img {
-        width: 200px;
+        width: 150px;
+        padding-bottom: 80px;
     }
 
     #tom {
-        padding-bottom: 90vh;
-        padding-top: 10vh;
+        max-width: 400px;
     }
 
-    #imgeptom {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #tom h1 {
-        font-size: 3.3em;
-        text-align: center;
-        padding-left: 10%;
-    }
-    #tom p {
-        font-size: 0.8em;
-    }
-
-    #tom img {
-        width: 300px;
-        margin-left: 6%;
-    }
-  }
+}
