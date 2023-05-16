@@ -94,7 +94,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:992px) and (max-width:1199px) {
 
     header {
         padding-top: 10px;
@@ -173,7 +173,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width:991px) {
     header {
         padding: 0px;
     }
@@ -256,7 +256,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px ) {
+@media screen and (min-width: 600px) and (max-width: 767px ) {
 
     header {
         height: 85px;
@@ -359,7 +359,7 @@ Grandes telas: acima de 1200px
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 
     header {
         height: 80px;
